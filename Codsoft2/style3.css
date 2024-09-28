@@ -1,0 +1,194 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff6f61, #ffcc33);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffe066;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('library-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+    border-bottom: 5px solid #ffcc33;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.btn {
+    background: linear-gradient(135deg, #ff6f61, #ffcc33);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 50px;
+    transition: background 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #ffcc33, #ff6f61);
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+    text-align: center;
+    background: #fff3e0;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 30%;
+    min-width: 250px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-item h3 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1.1em;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    background: #ff6f61;
+    color: white;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    background: #ffe066;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.contact a {
+    color: #ff6f61;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    font-size: 1.1em;
+}
