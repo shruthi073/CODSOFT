@@ -1,26 +1,21 @@
-/* Basic reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Body Styling */
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     background-color: #f2f2f2;
     color: #333;
 }
-
-/* Container */
 .container {
     width: 85%;
     margin: 0 auto;
     max-width: 1200px;
 }
 
-/* Header */
 header {
     background: linear-gradient(135deg, #ff6f61, #ffcc33);
     color: white;
@@ -56,7 +51,7 @@ nav ul li a:hover {
     color: #ffe066;
 }
 
-/* Hero Section */
+
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('library-hero.jpg') no-repeat center center/cover;
     color: white;
@@ -91,7 +86,6 @@ nav ul li a:hover {
     background: linear-gradient(135deg, #ffcc33, #ff6f61);
 }
 
-/* Features Section */
 .features {
     padding: 60px 0;
     text-align: center;
@@ -135,7 +129,6 @@ nav ul li a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* About Section */
 .about {
     padding: 60px 0;
     background: #ff6f61;
@@ -153,7 +146,6 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
-/* Contact Section */
 .contact {
     padding: 60px 0;
     background: #ffe066;
@@ -181,7 +173,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Footer Section */
 footer {
     background: #333;
     color: white;
